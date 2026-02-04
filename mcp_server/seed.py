@@ -5,8 +5,9 @@ import asyncpg
 DB_DSN = os.getenv("DB_DSN")
 
 KB_ARTICLES = [
-    ("Check sales endpoint", "Check before next black Friday"),
-    ("Fix api codes", "For some reason, API is not returning 404 when resource not found"),
+    ("No IC in your computer", "Just restart the modem."),
+    ("There's no power at your place", "Ask a neighbor if it’s just your place or if the whole building or neighborhood"
+        "is affected."),
 ]
 
 
